@@ -5,4 +5,4 @@ We are teaching ourselves how to use the MEAN Stack among other new technologies
 
 MongoDB, ExpressJS,AngularJS, NodeJS
 
-Also using GitHub, Jade.
+Also using GitHub, Jade, Bower, MongooseJS.
