@@ -41,7 +41,7 @@ app.get('/', function(req, res){
     articleProvider.findAll( function(error,docs){
         res.render('index', { 
             locals: {
-                title: 'a simple blog',
+                title: 'a simple list',
                 articles:docs
             }
         });
