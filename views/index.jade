@@ -11,9 +11,19 @@ h1= title
           input(name ="_id", type="hidden", value=article._id.toHexString())
           input(id="edit", value="edit", type="submit")
         a(href="/blog/"+article._id)!= article.title
+        a(href="/blog/"+article._id+"#disqus_thread").commentCount
         div.body
           - for (var i = 0; i <= article.body.length; i++) {
             p= article.body[i] 
           - }
 #newpost
   a(href="/blog/new")!= 'new post'
+
+script.
+    var disqus_shortname = 'mean-stack';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());

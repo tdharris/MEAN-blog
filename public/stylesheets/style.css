@@ -21,6 +21,9 @@ a {
   color: #1ca1a3;
   text-decoration: none;
 }
+.commentCount {
+  margin-left: 70px;
+}
 #articles {
   text-align: left;
   margin: 0 auto;
