@@ -1,16 +1,8 @@
-#Description
+MEAN-framework
+==============
+This is a small Scrum project for class at BYU-Idaho. 
+We are teaching ourselves how to use the MEAN Stack among other unfamiliar technologies.
 
-A simple mongoDB, express and Node.js blog made with [this tutorial](http://howtonode.org/express-mongodb)
+MongoDB, ExpressJS, AngularJS, NodeJS.
 
-##Extras
-
-I added the ability to edit and delete blog posts.
-Works with deployment on Heroku.
-
-##View
-
-[Hosted on Heroku](http://a-simple-blog.herokuapp.com/)
-
-##Instructions for running locally
-
-From the command line, type mongod to start a mongoDB instance. In a separate window, while in the /blog directory type node app.js. Navigate to localhost:3000 in a browser.
+Also using GitHub, Jade, Bower, MongooseJS.
